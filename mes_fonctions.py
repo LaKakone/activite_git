@@ -1,6 +1,8 @@
 #! /usr/bin/env python3
 # coding : utf-8
 
+# importation des fonctions mathématiques
+from math import *
 
 ############################
 ## Table de mutiplication ##
@@ -34,6 +36,8 @@ def salutation(nom):
 def calc():
 	"""Cette fonction calc peut effectuer les opérations de base"""
 	print("--- CALCULATRICE SIMPLE ---")
+	print("--------EST DEVENUE--------")
+	print("-CALCULATRICE SCIENTIFIQUE-")
 	operation = input("Votre opération: ")
 	try:
 		resultat = eval(operation)

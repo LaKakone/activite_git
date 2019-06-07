@@ -14,7 +14,7 @@ def main():
 		if reponse == "N":
 			break
 
-	print("Merci d'utilser CALCULATRICE SIMPLE")
+	print("Merci d'utilser CALCULATRICE SCIENTIFIQUE")
 
 if __name__ == "__main__":
 	main()
