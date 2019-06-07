@@ -27,3 +27,17 @@ def fact(n):
 def salutation(nom):
 	"""Elle souhaite la bienvenue"""
 	print("Salut Mr/Mme {} !\nSoyez la bienvenue dans le programme de calcul !".format(nom))
+
+#########################
+## Calculatrice simple ##
+#########################
+def calc():
+	"""Cette fonction calc peut effectuer les opérations de base"""
+	print("--- CALCULATRICE SIMPLE ---")
+	operation = input("Votre opération: ")
+	try:
+		resultat = eval(operation)
+
+		print(operation + " = " + str(resultat))
+	except:
+		print("Erreur! Entrée Invalide")
